@@ -1,0 +1,35 @@
+#layout {
+  display: grid;
+  grid-template-rows: 100px 100px;
+  grid-template-columns: 300px 400px;
+}
+
+#one {
+  border: solid 2px;
+  border-color: black transparent transparent black;
+  background-color: #bbbbbb;
+}
+
+#two {
+  text-align: left;
+  border: solid 2px;
+  border-color: black black transparent transparent;
+  background-color: #bbbbbb;
+}
+
+#three {
+  text-align: center;
+  border: solid 2px;
+  border-color: black black transparent transparent;
+  background-color: #bbbbbb;
+}
+
+#four {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 30px;
+  border: solid 2px;
+  border-color: black transparent transparent transparent;
+  background-color: #bbbbbb;
+}

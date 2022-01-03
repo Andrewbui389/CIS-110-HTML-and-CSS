@@ -1,0 +1,30 @@
+img {
+ width: 200px;
+ float: right;
+ border: thin solid;
+ padding: .2em;
+ margin: .2em;
+}
+.button1 {
+ background-color: #4CAF50; /* Green */
+ color: white;
+ margin: 4px 2px;
+}
+.button2 {
+ background-color: #1F8BEA; /* Blue */
+ color: white;
+ margin: 4px 2px;
+ }
+ .button3 {
+  background-color: #F3513A; /* Red */
+  color: white;
+  margin: 4px 2px;
+  }
+  .button4 {
+   background-color: #79C8CA; /* Teal */
+   color: white;
+   margin: 4px 2px;
+   }
+  .bottom {
+    border-bottom: 2px solid #F37D7D;
+  }

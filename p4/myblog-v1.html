@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <title>Andrew's Blog</title>
+  <style>
+    header {
+      text-align: center;
+      background: url("sample_pic.png");
+      background-size: cover;
+      color: pink;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="avatar.png" alt="logo" width="100" height="100">
+    <h1>Andrew's Travel Blog</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Goals</a></li>
+      <li><a href="#">What I love to do</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2> Portland </h2>
+    <p>Beautiful city, unique people and delicious food. I've grown up in Portland, Oregon ever since I was born and stayed here until I left for college. Lots of fun little things to do and explore, hiking is only 20 minutes away, cliff jumping is only 30 minutes away, a short trip to have some fun in nature is always a little ways away. The city itself hold lots of hidden gems, you'll have to keep exploring to find all of them! </p>
+    <button onclick="thooter()">Like</button>
+  </article>
+  <article>
+    <h2>Yellow Stone National park </h2>
+    <p>Nature, beautiful forestry, and just miles and miles of wilderness. Different animals that you get to see up close such as buffalos, birds, and much more. While I was there we had a scary moment where the van we were traveling in kept overheating and we were 30 miles out from civilization. We were able to get out of Yellowstone and go to a mechanic. Only to be stranded once more in salt lake city. But thats a story for another time. </p>
+    <button onclick="ahaha()">Like</button>
+  </article>
+  <article>
+    <h2>Orange County</h2>
+    <p>Sunny and gorgeous roughly 40 minutes south of Los Angelas, I love travel and Orange County is one of my most favorite place to travel to. The city is a nice little getaway to reimmerse myself into Vietnamese culture. It has plenty of Vietnamese restaurants and just a large population of Vietnamese people. </p>
+    <button onclick="myFunction()">Like</button>
+  </article>
+  <script>
+function myFunction() {
+  alert("You just made my day!");
+}
+function thooter() {
+  alert("Thank you!");
+}
+function ahaha() {
+  alert("Awesome!");
+}
+</script>
+</body>
+</html>
